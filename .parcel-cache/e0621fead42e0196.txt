@@ -1,0 +1,14 @@
+13
+34D:\Users\DELL\Desktop\tixi\nav\src133037092304215963 1
+44D:\Users\DELL\Desktop\tixi\nav\src\style.css133041721135867581 0
+35D:\Users\DELL\Desktop\tixi\nav\dist133041721144837745 1
+58D:\Users\DELL\Desktop\tixi\nav\dist\index.2cdaf7bc.css.map133041721144837745 0
+55D:\Users\DELL\Desktop\tixi\nav\dist\nav.59712999.js.map133041348852779223 0
+45D:\Users\DELL\Desktop\tixi\nav\src\index.html133041695709307053 0
+62D:\Users\DELL\Desktop\tixi\nav\dist\index.de158e3a.js.16516.84133041589870178447 0
+42D:\Users\DELL\Desktop\tixi\nav\src\main.js133041707281158948 0
+53D:\Users\DELL\Desktop\tixi\nav\dist\index.de158e3a.js133041707291934893 0
+54D:\Users\DELL\Desktop\tixi\nav\dist\index.2cdaf7bc.css133041721144797876 0
+46D:\Users\DELL\Desktop\tixi\nav\dist\index.html133041695730645565 0
+57D:\Users\DELL\Desktop\tixi\nav\dist\index.de158e3a.js.map133041707291954864 0
+51D:\Users\DELL\Desktop\tixi\nav\dist\nav.59712999.js133041348852589685 0
