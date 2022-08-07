@@ -5,7 +5,7 @@ npm global add parcel
 parcel src/index.html
 ```
 
-#build
+# build
 
 ```
 npm build
