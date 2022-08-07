@@ -8,5 +8,5 @@ parcel src/index.html
 # build
 
 ```
-npm build
+npm run build
 ```

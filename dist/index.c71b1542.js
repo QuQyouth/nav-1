@@ -6,6 +6,22 @@ const hashMap = mySitesObject || [
     {
         logo: "B",
         url: "https://www.bilibili.com"
+    },
+    {
+        logo: "C",
+        url: "https://cssgradient.io/"
+    },
+    {
+        logo: "D",
+        url: "https://www.deepl.com/translator"
+    },
+    {
+        logo: "I",
+        url: "https://www.iconfont.cn/"
+    },
+    {
+        logo: "J",
+        url: "https://juejin.cn/"
     }
 ];
 const simplifyUrl = (url)=>{
@@ -62,4 +78,4 @@ window.onbeforeunload = ()=>{
     localStorage.setItem("mySites", mySitesString);
 };
 
-//# sourceMappingURL=index.824123bf.js.map
+//# sourceMappingURL=index.c71b1542.js.map
