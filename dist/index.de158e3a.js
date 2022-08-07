@@ -2,7 +2,7 @@ const $siteList = $(".site-list");
 const $lastLi = $siteList.find("li.last");
 const mySites = localStorage.getItem("mySites");
 const mySitesObject = JSON.parse(mySites);
-const hashMap = mySitesObject || [
+const hashMap = mySitesObject?.length > 0 ? mySitesObject : [
     {
         logo: "B",
         url: "https://www.bilibili.com"

@@ -2,7 +2,7 @@ const $siteList = $(".site-list");
 const $lastLi = $siteList.find("li.last");
 const mySites = localStorage.getItem("mySites");
 const mySitesObject = JSON.parse(mySites);
-const hashMap = mySitesObject || [
+const hashMap = mySitesObject?.length > 0 ? mySitesObject : [
     {
         logo: "B",
         url: "https://www.bilibili.com"
@@ -63,9 +63,14 @@ $(".add-card").on("click", ()=>{
     });
     render();
 });
+// 删除网址
 $(".link-a").on("click", ".close", (e)=>{
     e.preventDefault();
     e.currentTarget.closest("li").remove();
+    let deletedKey = $(e.currentTarget).prev().html();
+    hashMap.forEach((site, index)=>{
+        if (site.url.includes(deletedKey)) hashMap.splice(index, 1);
+    });
 });
 // 按s聚焦搜索框
 $(document).on("keyup", (e)=>{
@@ -78,4 +83,4 @@ window.onbeforeunload = ()=>{
     localStorage.setItem("mySites", mySitesString);
 };
 
-//# sourceMappingURL=index.c71b1542.js.map
+//# sourceMappingURL=index.09953741.js.map
