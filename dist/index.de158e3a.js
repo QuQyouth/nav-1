@@ -63,9 +63,14 @@ $(".add-card").on("click", ()=>{
     });
     render();
 });
+// 删除网址
 $(".link-a").on("click", ".close", (e)=>{
     e.preventDefault();
     e.currentTarget.closest("li").remove();
+    let deletedKey = $(e.currentTarget).prev().html();
+    hashMap.forEach((site, index)=>{
+        if (site.url.includes(deletedKey)) hashMap.splice(index, 1);
+    });
 });
 // 按s聚焦搜索框
 $(document).on("keyup", (e)=>{
